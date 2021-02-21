@@ -1,0 +1,25 @@
+{
+    "num_workers": 2,
+    "cluster_name": "deng",
+    "spark_version": "7.1.x-scala2.12",
+    "spark_conf": {
+        "spark.databricks.delta.preview.enabled": "true"
+    },
+    "azure_attributes": {
+        "first_on_demand": 1,
+        "availability": "ON_DEMAND_AZURE",
+        "spot_bid_max_price": -1
+    },
+    "node_type_id": "Standard_DS3_v2",
+    "driver_node_type_id": "Standard_DS3_v2",
+    "ssh_public_keys": [],
+    "custom_tags": {},
+    "spark_env_vars": {
+        "JSL_OCR_LICENSE": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJleHAiOjE2MDg5NzU0OTksImlhdCI6MTYwNjM4MzQ5OSwidW5pcXVlX2lkIjoiMWRmM2U1YzYtMmZjYi0xMWViLWE1ZTUtNzIyM2RkN2MyNzY0In0.HAMnqadCzZaSOEvKBriwEWDVvEd3UCRby9hlasu1kmB7ZETh5YTSaWK-Sj_0_n9IGc5M664yF3p6xZwruWBgX-uKLBlmmEub_6CSYHyrvNoBrfjdYqdgzxVdoCKVnXDlW7j2FUlH1jSb_GSKPgo7DOcg57QgCVHyhVXp-Ebkim_CJZuMXACI-3enU6pIYR6zCzPt9jB2yApl62WndOUjgxi9IRqD__xcSQa3LQjtilmAxbPK3_sUr6ya9EPHDT7vVzzWmCpzTUgxeGnMHOBvm8Yp3b_A7iKstCx5elVK5TkROSkXkOdAVOnkx1hu5kxNJDtDUmj7EkYU3WQB6KEP1Q"
+    },
+    "autotermination_minutes": 74,
+    "enable_elastic_disk": true,
+    "cluster_source": "UI",
+    "init_scripts": [],
+    "cluster_id": "0926-204304-key830"
+}
