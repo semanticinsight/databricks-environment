@@ -6,8 +6,9 @@ os.environ["DBUTILSTOKEN"] = sys.argv[2]
 
 from spores.Clusters import clusters_create
 
-build_dir = sys.argv[3]
+cluster_dir = sys.argv[3]
+init_scripts_dir = sys.argv[4]
 
-clusters_create(build_dir, delete_if_exists=True, init_script_path="./init_scripts")
+clusters_create(cluster_dir, delete_if_exists=True, init_script_path=init_scripts_dir)
 
 
