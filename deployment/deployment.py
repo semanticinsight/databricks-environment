@@ -1,3 +1,6 @@
+import os
+import sys
+
 os.environ["DATABRICKS_API_HOST"] = sys.argv[1]
 os.environ["DBUTILSTOKEN"] = sys.argv[2]
 
